@@ -75,7 +75,6 @@ async def on_dbl_vote(data):
 @bot.event
 async def on_ready():
   print("Bot IS UP!")
-bot.load_extension(name="cogs.owner")
 @bot.message_command(name="asads")
 async def asdasdas(inter):
   await inter.send("hi")
